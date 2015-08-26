@@ -54,7 +54,7 @@
     "require": {
         "php": ">=5.1.2",
         "ext-tokenizer": "*",
-        "ext-xmlwriter": "*"
+        "ext-xmlwriter": "*",
         "everyman/neo4jphp" : "dev-master"
     },
     "bin": [
