@@ -55,7 +55,7 @@
         "php": ">=5.1.2",
         "ext-tokenizer": "*",
         "ext-xmlwriter": "*",
-        "neoxygen/neoclient" : "dev-master"
+        "neoxygen/neoclient": "^3.3"
     },
     "bin": [
         "scripts/phpcs",
