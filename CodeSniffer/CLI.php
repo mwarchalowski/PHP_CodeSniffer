@@ -851,7 +851,7 @@ class PHP_CodeSniffer_CLI
             $values['reports']['full'] = $values['reportFile'];
             $this->values['reports']   = $values['reports'];
         }
-        var_dum($values);
+        var_dump($values);
         die;
         $phpcs->processFiles($values['files'], $values['local']);
 
