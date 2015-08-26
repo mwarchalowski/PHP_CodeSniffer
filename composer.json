@@ -55,6 +55,7 @@
         "php": ">=5.1.2",
         "ext-tokenizer": "*",
         "ext-xmlwriter": "*"
+        "everyman/neo4jphp" : "dev-master"
     },
     "bin": [
         "scripts/phpcs",
