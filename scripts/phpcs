@@ -21,5 +21,7 @@ if (is_file(dirname(__FILE__).'/../CodeSniffer/CLI.php') === true) {
     include_once 'PHP/CodeSniffer/CLI.php';
 }
 
+require_once 'vendor/autoload.php';
+
 $cli = new PHP_CodeSniffer_CLI();
 $cli->runphpcs();
